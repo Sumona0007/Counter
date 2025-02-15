@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand">
             Navbar <span class="badge bg-secondary">{this.props.Nonzero}</span>
           </a>
         </div>
